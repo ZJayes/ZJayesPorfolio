@@ -15,6 +15,12 @@
 html{
     font-size:62.5%;
 }
+
+.center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 /* End of Common Styles */
 
 /* Mouse Circle */
@@ -94,3 +100,104 @@ html{
     background-size: cover;
 }
 /* End of Page BG */
+
+/* Section 1 */
+.section-1{
+ position: relative;
+ width: 100%;
+ height: 100vh;
+}
+
+/* Logo */
+.logo{
+    position: absolute;
+    top:2rem;
+    left:5rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fff
+}
+/* End of Logo */
+
+/* Animated Circles */
+.circles{
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.circle{
+    width:22rem;
+    height: 22rem;
+    border-radius: 50%;
+    background-color: red;
+    align-self: center;
+    justify-self: center;
+    opacity:.5;
+}
+
+.circle-1{
+    background: url(./images/landing/circle-1-img.jpg) center no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border: .5rem dotted #a14b1a;
+}
+.circle-2{
+    background: url(./images/landing/circle-2-img.jpg) center no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border: .5rem dashed #ffbd07;
+}
+.circle-3{
+    background: url(./images/landing/circle-3-img.jpg) center no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border: .5rem double #9b0e0e;
+}
+.circle-4{
+    background: url(./images/landing/circle-4-img.jpg) center no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border: .5rem double #fff;
+}
+
+.main-circle{
+    width:55rem;
+    height:55rem;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.main-circle img{
+    mix-blend-mode:inherit ;
+}
+/* End of Animated Circles */
+
+/* Featured Text */
+.featured-text{
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+    width: 0;
+    word-wrap: break-word;
+    line-height:3.5;
+    position: sticky;
+    top:0;
+}
+
+.featured-text-1{
+    margin: 0 auto 0 10rem;
+}
+.featured-text-2{
+    margin: 0 10rem 0 auto;
+}
+/* End of Featured Text */
+
+
+/* End of Section 1 */
