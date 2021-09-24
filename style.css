@@ -250,31 +250,31 @@ transform:rotateZ(-45deg) translateX(-0.65rem);
 }
 
 .circle-1{
-    background: url(./images/landing/circle-1-img.jpg) center no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    border: .5rem dotted #a14b1a;
-    margin-left: -10rem;
-}
-.circle-2{
-    background: url(./images/landing/circle-2-img.jpg) center no-repeat;
+    background: url(./images/landing/dortmund-cover-photo.jpg);
     background-size: cover;
     background-clip: content-box;
     border: .5rem dashed #ffbd07;
+    margin-left: -10rem;
+}
+.circle-2{
+    background: url(./images/landing/captain-america-cover-photo.jpg) center no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border: .5rem  double #9b0e0e;
     margin-right: -10rem;
 }
 .circle-3{
-    background: url(./images/landing/circle-3-img.jpg) center no-repeat;
-    background-size: cover;
-    background-clip: content-box;
-    border: .5rem double #9b0e0e;
-    margin-left: -10rem;
-}
-.circle-4{
-    background: url(./images/landing/circle-4-img.jpg) center no-repeat;
+    background: url(./images/landing/) center no-repeat;
     background-size: cover;
     background-clip: content-box;
     border: .5rem double #fff;
+    margin-left: -10rem;
+}
+.circle-4{
+    background: url(./images/landing/celtics-cover-photo.jpg) center no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    border: .5rem dotted #0b5c24;
     margin-right: -10rem;
 }
 

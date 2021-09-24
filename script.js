@@ -89,7 +89,7 @@ mainBtns.forEach(btn => {
 
 //About Me Text 
 const aboutMeText = document.querySelector('.about-me-text');
-const aboutMeTextContent = 'I am a designer & I create awards winngin websites with the best user experience & I do not talk much, just contacat me :)';
+const aboutMeTextContent = 'I am a 23 year old web developer from Bartlett, IL.  I create websites using HTML, CSS, and JavaScript.';
 
 Array.from(aboutMeTextContent).forEach(char => {
     const span = document.createElement('span')
