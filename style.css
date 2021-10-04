@@ -602,3 +602,54 @@ transform:rotateZ(-45deg) translateX(-0.65rem);
 }
 /* End of Services */
 /* End of Section 4 */
+
+/* Section 5 */
+.section-5{
+    position: relative;
+    height: 100%;
+}
+
+/* Form */
+/* End of Form */
+.form-heading{
+    font-family: "Poppins",
+    sans-serif;
+    font-size: 6rem;
+    font-weight:400;
+    color: #9b0e0e;
+    letter-spacing: .3rem;
+    margin-bottom: 3rem;
+    transition: opacity 0.3s
+}
+
+.contact-form{
+    flex-direction: column;
+}
+
+.contact-form-input{
+    width: 60rem;
+    padding: .5rem;
+    margin: 1rem 0;
+    background-color: rgba(255, 255, 255, .1);
+    border: .1rem solid #9b0e0e;
+    font-size: 1.7rem;
+    color: #aaa;
+    letter-spacing: .1rem;
+    height: 5rem;
+}
+
+.contact-form-textarea{
+    height: 20rem;
+    resize:none;
+}
+
+.form-submit-btn{
+    width: 20rem;
+    height: 5rem;
+    background-color: #9b0e0e;
+    border: none;
+    align-self: flex-start;
+    font-size: 1.8rem;
+    color: #fff;
+}
+/* End of Section 5 */
